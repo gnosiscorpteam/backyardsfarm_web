@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  video {
+    border-radius: 50px;
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  video {
+    border-radius: 100px;
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1300px) {
+  video {
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+.EZDrawer__container {
+  width: 100% !important;
+}
+
+@media (min-width : 620px) {
+  .EZDrawer__container {
+    width: 350px !important;
+  }
+}
+
+svg.star-svg {
+  display: inline;
+}
+
+.ourcustomer {
+  background-image: url("./assets/home/iStock-1394250709.png");
+}
+
+.aboutus {
+  background-image: url("./assets/aboutus/aboutus.png");
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+.card-hover:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  margin-top: -0.6rem;
+}
+
+.w-badge sup.w-badge-count {
+  font-size: 9px !important;
+  left: 20px !important;
+  background-color: #2A7221 !important;
+}
+
+nav {
+  z-index: 999 !important;
+}
+
+.productbg {
+
+  position: relative;
+}
+
+.productbg::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url("./assets/home/product-log.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.productbg-container {
+  position: relative;
+}
+
+.contactusbg {
+
+  position: relative;
+}
+
+.contactusbg::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background-image: url("./assets/contactus/red_logo.svg");
+  background-repeat: repeat;
+  background-size: 10%;
+  background-position: 50% 0;
+  /* background-size: cover; */
+}
+
+.contactusbg-container {
+  position: relative;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.cartInput::-webkit-outer-spin-button,
+.cartInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.cartInput[type=number] {
+  -moz-appearance: textfield;
+}
+
+.leaflet-container {
+  height: 100%;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-marker-shadow  {
+  display: none !important;
+}
+
+.leaflet-marker-icon {
+  width: 20px !important;
+  height: 25px !important;
+}
+
+.col-span-3 form {
+  padding: 0px;
+}
+
+.leaflet-top {
+  z-index: 900 !important;
+}
+
+.relative form {
+  padding: 20px 10px !important;
+}
